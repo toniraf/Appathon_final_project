@@ -1,0 +1,127 @@
+
+html {
+	height: 100%;
+	overflow: hidden;
+  }
+
+body {
+	background: rgb(129, 104, 133);
+	margin:0;
+    padding:0;
+	-webkit-perspective: 1px;
+	perspective: 1px;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+   height: 100%;
+   overflow-y: scroll;
+   overflow-x: hidden;
+}
+
+
+  
+  header {
+	box-sizing: border-box;
+	min-height: 40vw;
+	padding: 30vw 0 5vw;
+	position: relative;
+	-webkit-transform-style: inherit;
+	transform-style: inherit;
+	width: 100vw;
+  }
+  header, header:before {
+	background: 50% 50% / cover;
+  }
+
+  header::before {
+	bottom: 0;
+	content: "";
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	background-color: #8a8;
+	background-image: url(pills.jpg);
+	background-size: cover;
+	-webkit-transform-origin: center center 0;
+	-webkit-transform: translateZ(-1px) scale(2);
+	transform-origin: center center 0;
+	transform: translateZ(-1px) scale(2);
+	z-index: -1;
+	min-height: 100vh;
+  }
+  header * {
+	font-weight: normal;
+	letter-spacing: 0.2em;
+	text-align: center;
+	margin: 0;
+	  padding: 1em 0;
+  }
+  header p {
+	background-color: hsla(0, 0%, 100%,0.1);
+  }
+ 
+  main {
+	background-color: #c3dbc5;
+	line-height: 1.7;
+	max-width: 32em;
+	padding: 13% calc(50% - 16em) 5%;
+	position: relative;
+	z-index: 2;
+  }
+
+  
+  .input-field[type=text] {
+	width: 100%;
+	padding: 10px;
+	outline: none;
+	font-size: 16px;
+  }
+  
+/* Set a style for the submit button */
+.btn {
+	background-color: hsl(244, 24%, 54%);
+	color: white;
+	padding: 08px 10px;
+	display: inline-block;
+	border: none;
+	cursor: pointer;
+	width: 15%;
+	opacity: 0.9;
+	border-radius: 4px;
+	font-size: 16px;
+	text-align: center;
+	margin: 08px 01px;
+  }
+  
+  .btn:hover {
+	opacity: 1;
+  }	
+
+ .thetable {
+	background: hsl(242, 22%, 47%);
+	line-height: 1.7;
+	max-width: 32em;
+	padding: 5% calc(50% - 16em) 5%;
+	position: relative;
+	z-index: 2;
+  }
+  table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: 2px solid rgb(236, 238, 241);
+	color: white;
+  }
+  
+  th, td {
+	text-align: center;
+	padding: 16px;
+}
+  
+  tr:nth-child(even) {
+	background-color: hsl(243, 34%, 60%);;
+  }
+
+
+ 

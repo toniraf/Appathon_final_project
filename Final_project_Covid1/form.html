@@ -1,0 +1,32 @@
+<html>
+	<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="assets/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <title>  "COVID1" </title>
+    <script type="text/javascript" src="request.js"></script>
+</head>
+	
+<body>
+
+  <header>
+    <h1>COVID-1</h1>
+    <p>Search top 10 authors with the most publications for a specific drug.</p>
+  </header>
+  
+ <main>
+   
+      <form  name="myForm" style="max-width:500px;margin:auto" autocomplete="off" onsubmit="event.preventDefault(); myFunction()">
+      <input class="input-field" type="text" name="drug" id="dru" placeholder="Enter a drug:">
+      <button class="btn" type="submit" id="myButton" > Submit </button>
+      </form>
+    
+    </main>
+  
+  <div class="thetable" id="myTable"></div>
+
+
+</body>
+	
+</html>
