@@ -35,3 +35,7 @@ npm install
 node db.js 
 ```
 Aφού εκτελεστούν τα παραπάνω, το site θα είναι διαθέσιμο στο [http://localhost:3000](http://localhost:3000).
+
+## :video_camera: Βίντεο Παρουσίασης
+
+
