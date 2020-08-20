@@ -13,7 +13,7 @@
 Το backend υλοποιήθηκε με Node.js. Και για τo REST API χρησιμοποιήθηκε το web framework της Node, Express.js.
 
 ### Frontend
-Για το frontend έγινε χρήση της javaScript,HTML και CSS.
+Για το frontend έγινε χρήση της javaScript, HTML και CSS.
 
 ## :wrench: Οδηγίες Εγκατάστασης
 ### Για την βάση δεδομένων
