@@ -15,7 +15,7 @@
 ### Frontend
 Για το frontend έγινε χρήση της javaScript,HTML και CSS.
 
-## Οδηγίες Εγκατάστασης
+## :wrench: Οδηγίες Εγκατάστασης
 ### Για την βάση δεδομένων
 Αρχικά ξεκινάμε τον MySQL server στο τοπικό μας μηχάνημα. Αφού εκτελέσουμε την παρακάτω εντολή,
 ```
@@ -25,4 +25,13 @@ git clone https://github.com/toniraf/Appathon_final_project.git
 ```
 mysql -u root -p < Mydatabase.sql
 ```
+### Για τον server 
+Για την εγκατάσταση και εκτέλεση του κώδικα δίνουμε τις εξής εντολές:
+```
+cd Final_project_Covid1/
 
+npm install 
+
+node db.js 
+```
+Aφού εκτελεστούν τα παραπάνω, το site θα είναι διαθέσιμο στο [http://localhost:3000](http://localhost:3000).
